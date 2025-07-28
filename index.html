@@ -1,117 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RTP AO VIVO 8558BET</title>
-  <style>
-    body {
-      background-color: #111;
-      font-family: Arial, sans-serif;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-    h1 {
-      color: #00ffcc;
-      margin-bottom: 20px;
-    }
-    .btn-acesso {
-      background-color: #00ffcc;
-      color: #111;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 30px;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      margin-bottom: 30px;
-    }
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-    }
-    .card {
-      background-color: #222;
-      border-radius: 10px;
-      padding: 10px;
-      width: 140px;
-      text-align: center;
-      box-shadow: 0 0 10px #000;
-    }
-    .game-name {
-      font-weight: bold;
-      font-size: 14px;
-      margin-bottom: 8px;
-    }
-    .rtp-bar {
-      height: 20px;
-      border-radius: 5px;
-      color: #000;
-      font-size: 12px;
-      font-weight: bold;
-      line-height: 20px;
-    }
-    .fire-animated {
-      animation: pulse 1.2s infinite;
-    }
-    @keyframes pulse {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.15); }
-      100% { transform: scale(1); }
-    }
-  </style>
-</head>
-<body>
-  <h1>Simulador de RTP AO VIVO</h1>
-  <a href="https://8558bet1.com/?id=739519631" class="btn-acesso" target="_blank">🎯 ACESSE AQUI PARA DEPOSITAR</a>
-  <div class="grid" id="gamesGrid"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RTP AO VIVO 8558BET</title>
+    <style>
+      body {
+        background-color: #111;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
 
-  <script>
-    const games = [
-      "Joker's Jewels", "Tigre Sortudo", "Big Bass Splash", "Gold Party",
-      "Big Bass Bonanza", "Sugar Rush", "The Money Men Megaways", "Zeusxhades gods of war",
-      "Jackpot Hunter", "Wild Celebrity Bus Megaways", "Fortune Tiger", "Fortune Rabbit",
-      "Fortune Ox", "Fortune Snake", "Fortune Dragon", "Fortune Mouse", "Dragon Hatch",
-      "Ganesha Gold", "Midas Fortune", "Double Fortune", "Wild Bandito", "Wild Bouny Showdown",
-      "Cash Mania", "Lucky Piggy", "Zombie Outbreak", "Anubis Wrath", "Mahjong Ways",
-      "Phoenix Rises", "Chocolate Deluxe", "Legendary5", "Rooster In Love", "Bull Treasure",
-      "Elemental Link Fire", "Lucky Seven", "Winning Mask", "Flirting Scholar Tang",
-      "Lucky Dragons", "Kingsman", "Open Sesame", "The Liama Adventure"
-    ];
+      h1 {
+        color: #00ffcc;
+        margin-bottom: 20px;
+      }
 
-    function getRandomRTP() {
-      const value = Math.floor(Math.random() * 61) + 40;
-      let color;
-      if (value >= 75) color = "#00cc66";
-      else if (value >= 55) color = "#ffcc00";
-      else color = "#ff4444";
-      return { value: value + "%", color };
-    }
+      .btn-acesso {
+        background-color: #00ffcc;
+        color: #111;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 30px;
+      }
 
-    function renderCards() {
-      const container = document.getElementById("gamesGrid");
-      container.innerHTML = "";
-      games.forEach(name => {
-        const rtp = getRandomRTP();
-        let icon = "";
-        if (parseInt(rtp.value) >= 90) icon = "🔥";
-        if (parseInt(rtp.value) < 50) icon = "⚠️";
+      .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
 
-        const card = document.createElement("div");
-        card.className = "card";
-        card.innerHTML = `
-          <div class="game-name">${name} ${icon}</div>
-          <div class="rtp-bar ${icon === "🔥" ? 'fire-animated' : ''}" style="background-color: ${rtp.color};">${rtp.value}</div>
-        `;
-        container.appendChild(card);
-      });
-    }
+      .card {
+        background-color: #222;
+        border-radius: 10px;
+        padding: 10px;
+        width: 140px;
+        text-align: center;
+        box-shadow: 0 0 10px #000;
+      }
 
-    renderCards();
-    setInterval(renderCards, 20 * 60 * 1000); // Atualiza a cada 20 minutos
-  </script>
-</body>
+      .game-name {
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+
+      .rtp-bar {
+        height: 20px;
+        border-radius: 5px;
+        color: #000;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 20px;
+      }
+
+      .fire-animated {
+        animation: pulse 1.2s infinite;
+      }
+
+      @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.15); }
+        100% { transform: scale(1); }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Simulador de RTP AO VIVO</h1>
+    <a href="https://8558bet1.com/?id=739519631" class="btn-acesso" target="_blank">🎯 ACESSE AQUI PARA DEPOSITAR</a>
+    <div class="grid" id="gamesGrid"></div>
+
+    <script>
+      const games = [
+        "Joker's Jewels", "Tigre Sortudo", "Big Bass Splash", "Gold Party",
+        "Big Bass Bonanza", "Sugar Rush", "The Money Men Megaways", "Zeusxhades gods of war",
+        "Jackpot Hunter", "Wild Celebrity Bus Megaways", "Fortune Tiger", "Fortune Rabbit",
+        "Fortune Ox", "Fortune Snake", "Fortune Dragon", "Fortune Mouse", "Dragon Hatch",
+        "Ganesha Gold", "Midas Fortune", "Double Fortune", "Wild Bandito", "Wild Bounty Showdown",
+        "Cash Mania", "Lucky Piggy", "Zombie Outbreak", "Anubis Wrath", "Mahjong Ways",
+        "Phoenix Rises", "Chocolate Deluxe", "Legendary5", "Rooster In Love", "Bull Treasure",
+        "Elemental Link Fire", "Lucky Seven", "Winning Mask", "Flirting Scholar Tang",
+        "Lucky Dragons", "Kingsman", "Open Sesame", "The Liama Adventure"
+      ];
+
+      function getRandomRTP() {
+        const value = Math.floor(Math.random() * 61) + 40; // 40% até 100%
+        let color;
+        if (value >= 75) color = "#00cc66";
+        else color = "#ff4444";
+        return { value: value + "%", color };
+      }
+
+      function renderCards() {
+        const container = document.getElementById("gamesGrid");
+        container.innerHTML = "";
+        games.forEach(name => {
+          const rtp = getRandomRTP();
+          let icon = "";
+          if (parseInt(rtp.value) >= 90) icon = "🔥";
+          if (parseInt(rtp.value) < 50) icon = "⚠️";
+
+          const card = document.createElement("div");
+          card.className = "card";
+          card.innerHTML = `
+            <div class="game-name">${icon} ${name}</div>
+            <div class="rtp-bar${icon === "🔥" ? ' fire-animated' : ''}" style="background-color: ${rtp.color};">${rtp.value}</div>
+          `;
+          container.appendChild(card);
+        });
+      }
+
+      renderCards();
+      setInterval(renderCards, 20 * 60 * 1000); // Atualiza a cada 20 minutos
+    </script>
+  </body>
 </html>
